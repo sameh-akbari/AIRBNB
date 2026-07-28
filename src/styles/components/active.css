@@ -1,0 +1,6 @@
+.header-nav-link {
+  @apply relative flex items-center gap-2 px-4 py-2 hover:bg-gray-100 transition-colors h-full   text-gray-900;
+}
+.header-nav-link.active {
+  @apply border-b-2 border-black font-semibold;
+}

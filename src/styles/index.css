@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+/* //!fonts */
+
+@import "./fonts/fonts.css";
+
+/* //!Theme Layer */
+@layer theme {
+}
+
+/* //!Base Layer */
+@layer base {
+  @import "./base/reset.css";
+}
+
+/* //!Components Layer */
+@layer components {
+  @import "./components/active.css";
+  @import "./components/form.css";
+}
+
+/* //!Utilities Layer */
+@layer utilities {
+}
